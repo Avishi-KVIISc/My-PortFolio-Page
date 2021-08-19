@@ -1,0 +1,80 @@
+p {
+    color: darkblue;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d0fdff;
+    margin: 5px;
+    padding: 20px;
+}
+
+/**
+* {
+    border: solid; 
+}
+*/
+
+.header {
+    background-color: #90ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: #2130ff solid;
+    border-width: 1px;
+}
+
+.grid {
+    background-color: #8082ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 7px rgb(95, 95, 95);
+}
+
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+h1 {
+    /** margin-left: 20px; */
+    padding-bottom: 15px;
+}
+
+.item {
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    color: black;
+    top: 86.7%;
+    left: 25%;
+    opacity: 0.10;
+}
+
+.item p:hover {
+    opacity: 1;
+}
+
+.item img{
+    opacity: 1;
+    margin-top: 30px;
+    box-shadow: 10px 10px 7px rgb(95, 95, 95);
+    margin-bottom: 20px;
+}
+
+.item img:hover {
+    opacity: 0.33;
+}
+
+.header a:link{
+    color: blue;
+}
+
+.header a:visited{
+    color: blue;
+}
